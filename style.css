@@ -2,3 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width:600px){
+    .Nav{
+        padding-left: 1.2vw;
+        padding-right: 1.2vw;
+    }
+    #content{
+        width: 90%;
+    }
+    .Make h1{
+        font-size: 6vw;
+    }
+    .Make #cancelbtn{
+        font-size: 3vw;
+    }
+    #rem{
+        font-size: 5vw;
+    }
+    #Theme{
+        width: fit-content;
+        height: fit-content;
+        font-size: 2vw;
+        margin-left: 5vw;
+    }
+    #create{
+        font-size: 3vw;
+    }
+}
